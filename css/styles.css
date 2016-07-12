@@ -1,0 +1,161 @@
+body {
+  font-family: "Lora", serif;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #FFCF33;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #FFE799;
+}
+
+.nav-items {
+  display: inline;
+  float: right;
+  margin-right: 1rem;
+}
+
+.nav-items a {
+  color: black;
+}
+
+.nav-items li {
+  display: inline;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  margin-left: 1.5rem;
+  font-family: "Josefin Sans", sans-serif;  
+}
+
+.nav-items li a {
+  font-weight: normal;
+}
+
+.title {
+  font-size: 2.75rem;
+  margin: -0.25rem 0 1rem 1rem;
+  float: left;
+}
+
+.masthead {
+  margin: -8px;
+  padding: 8em 4em;
+  background-image: url("../images/skyline.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.intro {
+  font-family: "Josefin Sans", sans-serif;
+  width: 80%;
+  background-color: #ffffff;
+  padding: 3rem 1.5rem;
+  font-size: 2.5rem;
+  display: inline-block;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  color: black; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro p {
+  padding: 0;
+  margin: 0;
+}
+
+p.headline {
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+.section-heading {
+  color: orange;
+  font-size: 2em;
+  margin-bottom: 0;
+  margin-top: 1.5em;
+  font-family: "Josefin Sans", sans-serif;
+
+}
+
+.section-subheading {
+  color: #FFCF33;
+  font-size: 1.3em;
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 1em;
+  margin-bottom: -0.5em;
+}
+
+.introduction,
+.about {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.introduction > p,
+.about > p,
+.footer > p {
+  letter-spacing: 0.025em;
+  font-weight: 300;
+}
+
+.masthead,
+.footer {
+  color: white;
+  text-align: center;
+}
+
+.footer {
+  padding: 3em 0;
+  background-color: gray;
+  margin: 5em -8px 0;
+}
+
+.social-links {
+  list-style: none;
+  padding-left: 0;
+}
+
+.social-links > li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+@media only screen and (max-width: 650px) {
+  /* TODO */
+/*  .introduction, .about {
+    padding: 0 1em;
+  }
+  
+  .section-heading {
+    margin-top: 1em;
+  }
+  
+  .masthead {
+    padding: 4em 0;
+  }
+
+  .masthead-title {
+    margin-top: 0;
+    padding-top: 0;
+    line-height: 1.25em;
+  }
+  
+  .masthead-subtitle {
+    font-size: 1.6em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  
+  .footer {
+    padding: 1em 0;
+    margin-top: 1em;
+  }*/
+}

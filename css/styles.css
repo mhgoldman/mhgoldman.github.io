@@ -23,7 +23,9 @@ a:hover {
 }
 
 .nav {
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
+  background-color: #873d00;
+
   position: fixed;
   z-index: 9999;
   height: 4rem;
@@ -43,11 +45,14 @@ a:hover {
 }
 
 .nav-items a {
-  color: black;
+  /*color: black;*/
+  /*color: #d6792c;*/
+  color: white;
 }
 
 .nav-items a:hover {
   color: #d6792c;
+  /*color: black;*/
 }
 
 .nav-items li {
@@ -60,14 +65,15 @@ a:hover {
 }
 
 .nav-items li a {
-  font-weight: normal;
+  /*font-weight: bold;*/
 }
 
 .title {
   font-size: 2.75rem;
   margin: -0.25rem 0 1rem 1rem;
   float: left;
-  color: #d6792c;
+  /*color: #d6792c;*/
+  color: white;
 }
 
 .masthead {

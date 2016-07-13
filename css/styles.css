@@ -10,7 +10,6 @@ body {
   font-family: "Lora", serif;
   margin-bottom: 0;
   -webkit-font-smoothing: antialiased;
-  min-width: 304px;
 }
 
 a {
@@ -239,7 +238,6 @@ a.anchor {
 
   .nav {
     height: 5em;
-    min-width: 304px;
   }
 
   .nav-items li {

@@ -187,9 +187,25 @@ a.anchor {
 @media only screen and (max-width: 850px) {
   .nav {
     height: 6rem;
+    text-align: center;
   }
   .nav-items {
     float: none;
     margin: -0.75rem 0 0 -2.75rem;
+  }
+ .title {
+    margin-right: 1rem;
+  }
+  .nav-items li:first-child {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .title {
+    font-size: 2em;
+  }
+  .nav {
+    height: 5em;
   }
 }

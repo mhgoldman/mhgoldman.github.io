@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -9,6 +10,7 @@ body {
   font-family: "Lora", serif;
   margin-bottom: 0;
   -webkit-font-smoothing: antialiased;
+  min-width: 304px;
 }
 
 a {

@@ -62,7 +62,7 @@ a:hover {
 
 .masthead {
   margin: -8px;
-  padding: 8rem 4rem;
+  padding: 12rem 4rem 8rem;
   background-image: url("../images/skyline.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -90,6 +90,7 @@ a:hover {
 
 .intro-headline {
   font-weight: bold;
+  margin-top: 0;
   margin-bottom: 0.75rem;
 }
 
@@ -204,6 +205,15 @@ a.anchor {
   }
 }
 
+@media only screen and (max-width: 700px) {
+  .intro {
+    font-size: 2rem;
+    width: 100%;
+    padding: 1rem;
+    /*margin: 1.5em auto -1.5em auto;*/
+  }  
+}
+
 @media only screen and (max-width: 425px) {
   .title {
     font-size: 2em;
@@ -213,8 +223,8 @@ a.anchor {
     height: 5em;
   }
 
-  .nav-items {
-    font-size: 0.7rem;
+  .nav-items li {
+    font-size: 0.85rem;
   }
 
   .nav-items li {

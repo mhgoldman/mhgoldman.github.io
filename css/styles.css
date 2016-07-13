@@ -217,6 +217,10 @@ a.anchor {
     font-size: 0.7rem;
   }
 
+  .nav-items li {
+    margin-left: 1rem;
+  }
+
   .masthead {
     padding: 4rem 2rem;
   }

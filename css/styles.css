@@ -62,7 +62,7 @@ a:hover {
 
 .masthead {
   margin: -8px;
-  padding: 8em 4em;
+  padding: 8rem 4rem;
   background-image: url("../images/skyline.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -95,19 +95,19 @@ a:hover {
 
 .section-heading {
   color: #d6792c;
-  font-size: 2em;
+  font-size: 2rem;
   margin-bottom: 0;
-  margin-top: 1.5em;
+  margin-top: 2rem;
   font-family: "Josefin Sans", sans-serif;
 
 }
 
 .section-subheading {
   color: #ffbb83;
-  font-size: 1.3em;
+  font-size: 1.3rem;
   font-family: "Josefin Sans", sans-serif;
-  margin-top: 1em;
-  margin-bottom: -0.5em;
+  margin-top: 1rem;
+  margin-bottom: -0.5rem;
 }
 
 .portfolio {
@@ -132,9 +132,9 @@ a:hover {
 }
 
 .portfolio-item p {
-  font-size: 0.85em;
+  font-size: 0.85rem;
   margin: 0.75rem;
-  height: 2em;
+  height: 2rem;
 }
 
 .portfolio-item img {
@@ -148,12 +148,11 @@ a:hover {
 }
 
 .body-content {
-  margin: 0 1em;
+  margin: 0 1rem;
 }
 
 .body-content p {
-  letter-spacing: 0.025em;
-  font-weight: 300;  
+  letter-spacing: 0.025rem;
 }
 
 .masthead,
@@ -162,16 +161,16 @@ a:hover {
 }
 
 .footer {
-  padding: 3em 0;
+  padding: 3rem 0;
   background-color: #873d00;
-  margin: 5em -8px 0;
+  margin: 5rem -8px 0;
   color: white;  
 }
 
 a.anchor {
     display: block;
     position: relative;
-    top: -4rem;
+    top: -5em;
     visibility: hidden;
 }
 

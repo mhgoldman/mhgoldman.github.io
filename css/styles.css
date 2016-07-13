@@ -121,7 +121,7 @@ a:hover {
   text-align: center;
   padding: 0.25rem 0;
   display: inline-block;
-  margin: 2rem;
+  margin: 1rem;
   box-shadow: 5px 5px 5px #888888;
 }
 
@@ -189,13 +189,16 @@ a.anchor {
     height: 6rem;
     text-align: center;
   }
+
   .nav-items {
     float: none;
     margin: -0.50rem 0 0 -2.75rem;
   }
- .title {
+ 
+  .title {
     margin-right: 1rem;
   }
+ 
   .nav-items li:first-child {
     margin-left: 0;
   }
@@ -205,19 +208,33 @@ a.anchor {
   .title {
     font-size: 2em;
   }
+
   .nav {
     height: 5em;
   }
+
   .nav-items {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
   }
+
   .masthead {
     padding: 4rem 2rem;
   }
+
   .intro {
     font-size: 1.5em;
     width: 100%;
     padding: 1rem;
     margin: 2em auto -2em auto;
+  }
+
+  .portfolio-item {
+    width: 15rem;
+    height: 17.25rem;
+  }
+
+  .portfolio-item img {
+    height: 11.25rem;
+    margin-top: 0;
   }
 }

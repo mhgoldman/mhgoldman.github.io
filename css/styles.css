@@ -5,7 +5,6 @@ html {
   box-sizing: inherit;
 }
 
-
 body {
   font-family: "Lora", serif;
   margin-bottom: 0;
@@ -23,40 +22,30 @@ a:hover {
 }
 
 .nav {
-  /*background-color: #ffffff;*/
   background-color: #873d00;
-
   position: fixed;
   z-index: 9999;
   height: 4rem;
   width: 100%;
-  /* TODO! WHY IS THIS NEEDED? */
-  top: 0;
-  left: 0;
-  margin-top: 0;
-  margin-left: 0;
+  margin: 0 -8px;
   padding-top: 0.5em;
 }
 
 .nav-items {
-  display: inline;
   float: right;
   margin-right: 1rem;
 }
 
 .nav-items a {
-  /*color: black;*/
-  /*color: #d6792c;*/
   color: white;
 }
 
 .nav-items a:hover {
   color: #d6792c;
-  /*color: black;*/
 }
 
 .nav-items li {
-  display: inline;
+  display: inline-block;
   list-style-type: none;
   text-transform: uppercase;
   font-size: 0.9rem;
@@ -64,27 +53,20 @@ a:hover {
   font-family: "Josefin Sans", sans-serif;  
 }
 
-.nav-items li a {
-  /*font-weight: bold;*/
-}
-
 .title {
   font-size: 2.75rem;
   margin: -0.25rem 0 1rem 1rem;
-  float: left;
-  /*color: #d6792c;*/
   color: white;
+  display: inline-block;
 }
 
 .masthead {
-  /*margin: 3rem -8px -8px 0;*/
-  margin: 3rem -8px 0 -8px;
-  /*margin-top: 3rem;*/
+  margin: -8px;
   padding: 8em 4em;
   background-image: url("../images/skyline.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center bottom;
+  background-position: center;
 }
 
 .intro {
@@ -140,6 +122,7 @@ a:hover {
   padding: 0.25rem 0;
   display: inline-block;
   margin: 2rem;
+  box-shadow: 5px 5px 5px #888888;
 }
 
 .portfolio-item h2 {
@@ -161,14 +144,14 @@ a:hover {
 
 .body {
   max-width: 60em;
-  margin-left: auto;
-  margin-right: auto;  
-  /* TODO! Is this the best way? */
-  padding-left: 1em;
-  padding-right: 1em;
+  margin: 0 auto;
 }
 
-.body p {
+.body-content {
+  margin: 0 1em;
+}
+
+.body-content p {
   letter-spacing: 0.025em;
   font-weight: 300;  
 }

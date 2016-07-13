@@ -239,6 +239,7 @@ a.anchor {
 
   .nav {
     height: 5em;
+    min-width: 304px;
   }
 
   .nav-items li {

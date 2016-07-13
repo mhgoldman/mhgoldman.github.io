@@ -124,34 +124,44 @@ a:hover {
 .portfolio-item {
   background-color: #ffbb83;
   width: 20rem;
-  height: 23rem;
+  height: 18.5rem;
   text-align: center;
   padding: 0.25rem 0;
   display: inline-block;
   margin: 1rem;
   box-shadow: 5px 5px 5px #888888;  
-}
-
-.portfolio-item:hover {
-  opacity: 0.5;
-  filter: alpha(opacity=50);
+  position: relative;
 }
 
 .portfolio-item h2 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.25rem;
-  margin: 0.75rem;
+  margin: 0.75rem 0 0 0;
+}
+
+.portfolio-item:hover p {
+  visibility: visible;
 }
 
 .portfolio-item p {
-  font-size: 0.85rem;
-  margin: 0.75rem;
-  height: 2rem;
+  visibility: hidden;
+  position: absolute;
+  bottom: -1rem;
+  left: 0px;  
+  top: -1em;
+  height: 100%;
+  width: 100%;  
+  background-color:black;  
+  padding: 40% 0.5rem 0 0.5rem;
+  color:white;  
+  font-weight: bold;
+  opacity: 0.7;
+  filter:alpha(opacity=70);
 }
 
 .portfolio-item img {
   height: 15rem;
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
 }
 
 .body {
@@ -167,23 +177,19 @@ a:hover {
   letter-spacing: 0.025rem;
 }
 
-.masthead,
-.footer {
-  text-align: center;
-}
-
 .footer {
   padding: 3rem 0;
   background-color: #873d00;
   margin: 5rem -8px 0;
   color: white;  
+  text-align: center;
 }
 
 a.anchor {
-    display: block;
-    position: relative;
-    top: -5em;
-    visibility: hidden;
+  display: block;
+  position: relative;
+  top: -5em;
+  visibility: hidden;
 }
 
 .social-links {
@@ -206,11 +212,11 @@ a.anchor {
     float: none;
     margin: -0.50rem 0 0 -2.75rem;
   }
- 
+  
   .title {
     margin-right: 1rem;
   }
- 
+  
   .nav-items li:first-child {
     margin-left: 0;
   }
@@ -244,6 +250,7 @@ a.anchor {
 
   .masthead {
     padding: 4rem 2rem;
+    text-align: center;
   }
 
   .intro {

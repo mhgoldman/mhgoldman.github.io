@@ -67,7 +67,6 @@ a:hover {
   background-size: cover;
   background-position: center;
   text-align: center;
-  min-width: 320px;
 }
 
 .intro {
@@ -262,11 +261,11 @@ a.anchor {
 
   .portfolio-item {
     width: 15rem;
-    height: 17.25rem;
+    height: 15rem;
   }
 
   .portfolio-item img {
-    height: 11.25rem;
-    margin-top: 0;
+    height: 11rem;
+    margin-top: 0.5rem;
   }
 }

@@ -35,12 +35,6 @@ a.anchor {
   visibility: hidden;
 }
 
-.alternate-background {
-  background-color: #2c4bd6;
-  margin-left: -0.5rem;
-  margin-right: -0.5rem;
-}
-
 /***** Navbar *****/
 
 .nav {
@@ -104,7 +98,7 @@ a.anchor {
   display: inline-block;
   opacity: 0.7;
   filter: alpha(opacity=70);
-  color: black; 
+  color: #391A00; 
   margin-left: auto;
   margin-right: auto;
 }
@@ -122,6 +116,9 @@ a.anchor {
 
 .section-heading {
   color: #d6792c;
+  /*color: white;
+  background-color: #873d00;
+  padding: 1rem;*/
   font-size: 2rem;
   font-family: "Josefin Sans", sans-serif;
   text-align: center;
@@ -130,6 +127,10 @@ a.anchor {
 }
 
 /***** About *****/
+.about {
+  color: #391A00; 
+}
+
 .about .headshot {
   float: right;
   height: 250px;
@@ -137,6 +138,11 @@ a.anchor {
 }
 
 /***** Portfolio *****/
+.alternate-background {
+  background-color: #005151;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
 
 .portfolio {
   text-align: center;
@@ -153,15 +159,16 @@ a.anchor {
 }
 
 .portfolio-item {
-  background-color: #ffbb83;
+  background-color: #1F7A7A;
   width: 20rem;
   height: 18.5rem;
   text-align: center;
   padding: 0.25rem 0;
   display: inline-block;
   margin: 1rem;
-  box-shadow: 5px 5px 5px #888888;  
+  box-shadow: 5px 5px 5px #003B3B;  
   position: relative;
+  color: #002222;
 }
 
 .portfolio-item h2 {
@@ -182,12 +189,12 @@ a.anchor {
   top: -1em;
   height: 100%;
   width: 100%;  
-  background-color:black;  
   padding: 40% 0.5rem 0 0.5rem;
   color:white;  
   font-weight: bold;
   opacity: 0.7;
   filter:alpha(opacity=70);
+  background-color: #002222;
 }
 
 /***** Footer *****/

@@ -25,23 +25,27 @@
         <p class='intro-body'>I'm a technology consultant and manager specializing in client-facing technical service delivery, web development, and cloud computing.</p>
       </div>
     </header>
-    <section class='body'>
-      <div class='body-content'>
-        <a class='anchor' name='about'></a>
+
+    <a class='anchor' name='about'></a>
+    <section class='about'>
+      <div class='section-content'>
         <h1 class='section-heading'>About Me</h1>
-        <section class='about'>
-          <div class='about-text'>
+        <div class='about-text'>
           <img class='headshot' src='images/headshot.jpg'></img>
 
-            <p>My family got our first computer from Radio Shack in the late '80s. It was a Tandy 1000 286, and I was 5. I've been hooked ever since.</p>
-            <p>I graduated from <a href='https://www.binghamton.edu'>Binghamton University</a> in 2005, with a double major in computer science and music. After a brief stint at <a href='https://www.gs.com'>Goldman Sachs</a> and a failed startup, I spent 7 years building and managing a client-facing solutions engineering team at Capital IQ, which is now part of <a href='https://www.spglobal.com'>S&amp;P Global</a>. Since 2015, I've been part of the Professional Services team at <a href='https://www.skytap.com'>Skytap</a>, a cloud infrastructure startup.</p>
-            <p>I love to get my hands dirty using interesting technology to solve customers' problems. I'm passionate about developing and leading teams of engineers who do the same.</p>
-            <p>Other things I enjoy include stand-up comedy, choral music, podcasts, and correct grammar and spelling.</p>
-          </div>
-        </section>
-        <a class='anchor' name='portfolio'></a>
-        <h1 class='section-heading'>Portfolio</h1>
-        <section class='portfolio'>
+          <p>My family got our first computer from Radio Shack in the late '80s. It was a Tandy 1000 286, and I was 5. I've been hooked ever since.</p>
+          <p>I graduated from <a href='https://www.binghamton.edu'>Binghamton University</a> in 2005, with a double major in computer science and music. After a brief stint at <a href='https://www.gs.com'>Goldman Sachs</a> and a failed startup, I spent 7 years building and managing a client-facing solutions engineering team at Capital IQ, which is now part of <a href='https://www.spglobal.com'>S&amp;P Global</a>. Since 2015, I've been part of the Professional Services team at <a href='https://www.skytap.com'>Skytap</a>, a cloud infrastructure startup.</p>
+          <p>I love to get my hands dirty using interesting technology to solve customers' problems. I'm passionate about developing and leading teams of engineers who do the same.</p>
+          <p>Other things I enjoy include stand-up comedy, choral music, podcasts, and correct grammar and spelling.</p>
+        </div>
+      </div>
+    </section>
+
+    <a class='anchor' name='portfolio'></a>
+    <div class='alternate-background'>
+      <section class='portfolio'>
+        <div class='section-content'>
+          <h1 class='section-heading'>Portfolio</h1>
             <a href='https://mhgoldman.github.io/about-me/' target='_blank'><div class='portfolio-item'>
               <h2>About Me</h2>
               <p>The obligatory vanity page.</p>
@@ -62,13 +66,78 @@
               <p>Abusing the NYTimes with Chrome Developer Tools.</p>
               <img src='images/nytimes.png' alt='NYTimes Hack'/>
             </div></a>
-        </section>
-        <a class='anchor' name='contact'></a>
+          </div>
+      </section>
+    </div>
+
+    <a class='anchor' name='contact'></a>
+    <section class='contact'>
+      <div class='section-content'>
         <h1 class='section-heading'>Contact Me</h1>
-        <section class='contact'>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi odit, dolore neque tenetur, in aliquam impedit, sunt laborum, incidunt saepe velit iusto inventore. Aspernatur facilis dolores est repellat debitis sed.</p>      
-        </section>
+        
+
+
+
+        <form id="form1" name="form1" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+        action="https://mhgoldman.wufoo.com/forms/zn9c9f41r38sei/#public">
+
+        <ul>
+        <li id="foli1" class="notranslate      ">
+          <label class="desc" id="title1" for="Field1">
+            Name
+          </label>
+          <span>
+            <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1"       />
+            <label for="Field1">First</label>
+          </span>
+          <span>
+            <input id="Field2" name="Field2" type="text" class="field text ln" value="" size="14" tabindex="2" />
+            <label for="Field2">Last</label>
+          </span>
+        </li>
+        <li id="foli3" class="notranslate      ">
+          <label class="desc" id="title3" for="Field3">
+            Email
+          </label>
+          <div>
+            <input id="Field3" name="Field3" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="3"       />
+          </div>
+        </li>
+        <li id="foli4"
+        class="notranslate      "><label class="desc" id="title4" for="Field4">
+        Message
+      </label>
+
+      <div>
+        <textarea id="Field4"
+        name="Field4"
+        class="field textarea medium"
+        spellcheck="true"
+        rows="10" cols="50"
+
+        tabindex="4"
+        onkeyup=""
+        ></textarea>
+
       </div>
+    </li> <li class="buttons ">
+    <div>
+
+      <input id="saveForm" name="saveForm" class="btTxt submit"
+      type="submit" value="Submit"
+      /></div>
+    </li>
+
+    <li class="hide">
+      <label for="comment">Do Not Fill This Out</label>
+      <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+      <input type="hidden" id="idstamp" name="idstamp" value="Ps3nLiBQAyTXAWYD5m0uvFm9lmsW4w5OGsIKgBjTSrM=" />
+    </li>
+  </ul>
+  </form>
+
+
+  </div>
     </section>
 
     <footer class='footer'>
@@ -78,7 +147,6 @@
         <li><a target='_blank' href='https://www.linkedin.com/in/martingoldman'>LinkedIn</a></li>
         <li><a target='_blank' href='https://www.facebook.com/mhgoldman'>Facebook</a></li>
       </ul>
-      <p>Cover image via <a target='_blank' href='http://pexels.com'>Pexels</a></p>
     </footer>
   </body>
 </html>

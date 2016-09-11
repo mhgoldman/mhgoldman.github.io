@@ -11,7 +11,6 @@ body {
   color: #391A00; 
   margin-bottom: 0;
   -webkit-font-smoothing: antialiased;
-  /*font-size: 1.15rem;*/
 }
 
 a {
@@ -28,7 +27,6 @@ a:hover {
 }
 
 a.nav-active {
-  /*text-decoration: underline;*/
   padding-bottom: 2px;
   border-bottom: 1px solid white;
 }
@@ -53,7 +51,6 @@ a.anchor {
 }
 
 /***** Navbar *****/
-
 .nav {
   background-color: #873d00;
   position: fixed;
@@ -94,7 +91,6 @@ a.anchor {
 }
 
 /***** Masthead *****/
-
 .masthead {
   margin: -8px;
   padding: 12rem 4rem 8rem;
@@ -133,9 +129,6 @@ a.anchor {
 
 .section-heading {
   color: #d6792c;
-  /*color: white;
-  background-color: #873d00;
-  padding: 1rem;*/
   font-size: 2rem;
   font-family: "Josefin Sans", sans-serif;
   text-align: center;

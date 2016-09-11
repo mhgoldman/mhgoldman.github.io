@@ -8,12 +8,23 @@ html {
 
 body {
   font-family: "Lora", serif;
+  color: #391A00; 
   margin-bottom: 0;
   -webkit-font-smoothing: antialiased;
+  /*font-size: 1.15rem;*/
 }
 
 a {
   text-decoration: none;
+  color: #873d00;
+}
+
+a:visited {
+  color: #a85816;
+}
+
+a:hover {
+  color: #FFCF33;
 }
 
 section {
@@ -127,13 +138,9 @@ a.anchor {
 }
 
 /***** About *****/
-.about {
-  color: #391A00; 
-}
-
 .about .headshot {
   float: right;
-  height: 250px;
+  height: 300px;
   padding-left: 3rem;
 }
 
@@ -190,16 +197,44 @@ a.anchor {
   height: 100%;
   width: 100%;  
   padding: 40% 0.5rem 0 0.5rem;
-  color:white;  
+  color: white;  
   font-weight: bold;
   opacity: 0.7;
   filter:alpha(opacity=70);
   background-color: #002222;
 }
 
+/***** Contact *****/
+.contact form {
+  border: 2px solid #873d00;
+  padding: 2rem;
+}
+
+.contact label {
+  display: block;
+}
+
+.contact input,textarea {
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  border: 1px solid #873d00;
+}
+
+.contact input[type=submit] {
+  display: block;
+  font-size: 1.2rem;
+  background-color: #873d00;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+.contact p {
+  margin-bottom: 3rem;
+}
+
 /***** Footer *****/
 .footer {
-  padding: 3rem 0;
+  padding: 1rem 0;
   background-color: #873d00;
   margin: 3rem -8px 0;
   color: white;  
@@ -215,13 +250,33 @@ a.anchor {
 }
 
 .footer .social-links {
+  margin-bottom: 2rem;
   list-style: none;
   padding-left: 0;
 }
 
-.footer .social-links > li {
-  display: inline-block;
-  margin-right: 1em;
+.footer .social-links li {
+  display: inline-block;  
+  list-style-type: none;
+}
+ 
+.footer .social-links li i {
+  color: white;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  text-align: center;
+  margin: 0 5px;
+  padding-top: 15%;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer .social-links li a i:hover {
+    opacity: .7;
+}
+
+.footer p {
+  font-size: 0.9rem;
 }
 
 /***** Media Queries *****/

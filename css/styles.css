@@ -183,24 +183,27 @@ a.anchor {
   margin: 0.75rem 0 0 0;
 }
 
-.portfolio-item:hover p {
+.portfolio-item:hover .hover-content {
   visibility: visible;
 }
 
-.portfolio-item p {
+.portfolio-item .hover-content {
   visibility: hidden;
   position: absolute;
-  bottom: -1rem;
-  left: 0px;  
-  top: -1em;
+  left: 0;  
+  top: 0;
   height: 100%;
   width: 100%;  
-  padding: 40% 0.5rem 0 0.5rem;
+  padding: 25% 0.5rem 0 0.5rem;
   color: white;  
   font-weight: bold;
   opacity: 0.7;
   filter:alpha(opacity=70);
   background-color: #002222;
+}
+
+.portfolio-item .hover-content i {
+  font-size: 2rem;
 }
 
 /***** Contact *****/

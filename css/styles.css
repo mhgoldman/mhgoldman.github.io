@@ -46,8 +46,8 @@ section {
 a.anchor {
   display: block;
   position: relative;
-  top: -5em;
   visibility: hidden;
+  top: -3rem;
 }
 
 /***** Navbar *****/
@@ -154,17 +154,17 @@ a.anchor {
   text-align: center;
 }
 
-.portfolio-item img {
-  height: 15rem;
-  margin-top: 0.5rem;
-}
-
 .portfolio a {
   color: black;
   font-weight: normal;
 }
 
-.portfolio-item {
+.portfolio .portfolio-item img {
+  height: 15rem;
+  margin-top: 0.5rem;
+}
+
+.portfolio .portfolio-item {
   background-color: #1F7A7A;
   width: 20rem;
   height: 18.5rem;
@@ -220,6 +220,7 @@ a.anchor {
   margin-bottom: 2rem;
   font-size: 1rem;
   border: 1px solid #873d00;
+  max-width: 100%;
 }
 
 .contact input[type=submit] {
@@ -284,27 +285,31 @@ a.anchor {
 /***** Media Queries *****/
 
 @media only screen and (max-width: 850px) {
+  a.anchor {
+    top: -5em;
+  }
+
   .nav {
     height: 6rem;
     text-align: center;
   }
 
-  .nav-items {
+  .nav .nav-items {
     float: none;
     margin: -0.50rem 0 0 -2.75rem;
   }
   
-  .title {
+  .nav .title {
     margin-right: 1rem;
   }
   
-  .nav-items li:first-child {
+  .nav .nav-items li:first-child {
     margin-left: 0;
   }
 }
 
 @media only screen and (max-width: 700px) {
-  .intro {
+  .masthead .intro {
     font-size: 2rem;
     width: 100%;
     padding: 1rem;
@@ -312,19 +317,20 @@ a.anchor {
 }
 
 @media only screen and (max-width: 500px) {
-  .title {
-    font-size: 2em;
+  a.anchor {
+    top: -4em;
   }
 
   .nav {
     height: 5em;
   }
 
-  .nav-items li {
-    font-size: 0.85rem;
+  .nav .title {
+    font-size: 2em;
   }
 
-  .nav-items li {
+  .nav .nav-items li {
+    font-size: 0.85rem;
     margin-left: 1rem;
   }
 
@@ -333,23 +339,23 @@ a.anchor {
     text-align: center;
   }
 
-  .intro {
+  .masthead .intro {
     font-size: 1.5em;
     padding: 1rem;
     margin: 2em auto -2em auto;
   }
 
-  .portfolio-item {
+  .portfolio .portfolio-item {
     width: 15rem;
     height: 15rem;
   }
 
-  .portfolio-item img {
+  .portfolio .portfolio-item img {
     height: 11rem;
     margin-top: 0.5rem;
   }
 
-  .headshot {
+  .about .headshot {
     float: none;
     height: 150px;
     margin-top: 1rem;

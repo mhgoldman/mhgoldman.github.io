@@ -1,5 +1,3 @@
-var anchorPositions = [];
-
 $(function() {
   $('nav li a').click(function(){
     href = $.attr(this, 'href');
@@ -12,21 +10,21 @@ $(function() {
     return false;
   });
 
-
-  var aChildren = $("nav li").children();
-  for (var i=0; i < aChildren.length; i++) {    
-    var aChild = aChildren[i];
-    var ahref = $(aChild).attr('href');
-    anchorPositions.push({id: ahref, position: $(ahref).offset().top});
-  }
-
   $(window).scroll(selectAnchor);
 
   selectAnchor();
 });
 
 function selectAnchor() {
-  var windowPos = $(window).scrollTop(); 
+  var windowPos = $(window).scrollTop() + $('.nav').height(); 
+  var anchorPositions = [];
+  var aChildren = $("nav li").children();
+
+  for (var i=0; i < aChildren.length; i++) {    
+    var aChild = aChildren[i];
+    var ahref = $(aChild).attr('href');
+    anchorPositions.push({id: ahref, position: $(ahref).offset().top});
+  }
 
   var selectedAnchor;
 

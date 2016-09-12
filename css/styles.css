@@ -376,7 +376,7 @@ a.anchor {
   }
 }
 
-@media only screen and (max-width: 20rem) {
+@media only screen and (max-width: 350px) {
   a.anchor {
     top: -1.5rem;
   }
@@ -384,7 +384,6 @@ a.anchor {
   .nav {
     height: 2.5rem;
     padding-top: 0.125rem;
-    background-color: blue;
   }
 
   .nav .title {

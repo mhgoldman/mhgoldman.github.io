@@ -337,7 +337,9 @@ a.anchor {
   }
 
   .nav .title {
-    font-size: 2em;
+    font-size: 2rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
   }
 
   .nav .nav-items li {

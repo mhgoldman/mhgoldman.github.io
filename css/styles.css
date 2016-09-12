@@ -373,3 +373,29 @@ a.anchor {
     padding-left: 0;
   }
 }
+
+@media only screen and (max-width: 300px) {
+  a.anchor {
+    top: -1.5rem;
+  }
+
+  .nav {
+    height: 2.5rem;
+    padding-top: 0.125rem;
+  }
+
+  .nav .title {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .nav .nav-items li {
+    font-size: 0.45rem;
+    margin-left: 0.2rem;
+  }
+
+  .masthead .intro {
+    font-size: 1rem;
+    padding: 0.25rem;
+  }
+}

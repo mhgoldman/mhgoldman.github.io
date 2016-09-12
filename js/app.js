@@ -1,5 +1,5 @@
 $(function() {
-  $('nav li a').click(function(){
+  $('nav a').click(function(){
     href = $.attr(this, 'href');
     $('html, body').animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top

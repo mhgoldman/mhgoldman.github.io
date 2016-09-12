@@ -90,6 +90,14 @@ a.anchor {
   display: inline-block;
 }
 
+.nav .title a {
+  color: white;
+}
+
+.nav .title a:hover {
+  color: white;
+}
+
 /***** Masthead *****/
 .masthead {
   margin: -8px;

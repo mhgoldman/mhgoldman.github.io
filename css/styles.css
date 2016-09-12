@@ -55,10 +55,11 @@ a.anchor {
   background-color: #873d00;
   position: fixed;
   z-index: 9999;
-  height: 4rem;
+  /*height: 4rem;*/
   width: 100%;
   margin: 0 -8px;
-  padding-top: 0.5em;
+  padding-top: 0.5rem;
+  padding-bottom: 0.25rem;
 }
 
 .nav .nav-items {
@@ -85,7 +86,7 @@ a.anchor {
 
 .nav .title {
   font-size: 2.75rem;
-  margin: -0.25rem 0 1rem 1rem;
+  margin: -0.25rem 0 0 1rem;
   color: white;
   display: inline-block;
 }
@@ -301,8 +302,11 @@ a.anchor {
   }
 
   .nav {
-    height: 6rem;
+    /*height: 6rem;*/
     text-align: center;
+  padding-bottom: 0.5rem;
+
+
   }
 
   .nav .nav-items {
@@ -312,6 +316,7 @@ a.anchor {
   
   .nav .title {
     margin-right: 1rem;
+    padding-bottom: 0.75rem;
   }
   
   .nav .nav-items li:first-child {
@@ -333,7 +338,7 @@ a.anchor {
   }
 
   .nav {
-    height: 5em;
+    /*height: 5em;*/
   }
 
   .nav .title {
@@ -382,7 +387,7 @@ a.anchor {
   }
 
   .nav {
-    height: 2.5rem;
+    /*height: 2.5rem;*/
     padding-top: 0.125rem;
   }
 

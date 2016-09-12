@@ -169,7 +169,7 @@ a.anchor {
 
 .portfolio .portfolio-item img {
   height: 15rem;
-  margin-top: 0.5rem;
+  margin-top: 0.5rem;  
 }
 
 .portfolio .portfolio-item {
@@ -189,6 +189,9 @@ a.anchor {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.25rem;
   margin: 0.75rem 0 0 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .portfolio-item:hover .hover-content {

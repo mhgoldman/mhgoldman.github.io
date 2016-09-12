@@ -376,7 +376,7 @@ a.anchor {
   }
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 20rem) {
   a.anchor {
     top: -1.5rem;
   }

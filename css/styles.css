@@ -55,7 +55,6 @@ a.anchor {
   background-color: #873d00;
   position: fixed;
   z-index: 9999;
-  /*height: 4rem;*/
   width: 100%;
   margin: 0 -8px;
   padding-top: 0.5rem;
@@ -174,7 +173,7 @@ a.anchor {
 }
 
 .portfolio .portfolio-item {
-  background-color: #1F7A7A;
+  background-color: #328C8C;
   width: 20rem;
   height: 18.5rem;
   text-align: center;
@@ -238,6 +237,7 @@ a.anchor {
 .contact input[type=submit] {
   display: block;
   font-size: 1.2rem;
+  font-family:  "Josefin Sans";
   background-color: #873d00;
   color: white;
   padding: 0.5rem 1rem;
@@ -274,7 +274,7 @@ a.anchor {
   display: inline-block;  
   list-style-type: none;
 }
- 
+
 .footer .social-links li i {
   color: white;
   width: 40px;
@@ -287,7 +287,7 @@ a.anchor {
 }
 
 .footer .social-links li a i:hover {
-    opacity: .7;
+  opacity: .7;
 }
 
 .footer p {
@@ -302,11 +302,8 @@ a.anchor {
   }
 
   .nav {
-    /*height: 6rem;*/
     text-align: center;
-  padding-bottom: 0.5rem;
-
-
+    padding-bottom: 0.5rem;
   }
 
   .nav .nav-items {
@@ -335,10 +332,6 @@ a.anchor {
 @media only screen and (max-width: 500px) {
   a.anchor {
     top: -4em;
-  }
-
-  .nav {
-    /*height: 5em;*/
   }
 
   .nav .title {
@@ -387,7 +380,6 @@ a.anchor {
   }
 
   .nav {
-    /*height: 2.5rem;*/
     padding-top: 0.125rem;
   }
 
